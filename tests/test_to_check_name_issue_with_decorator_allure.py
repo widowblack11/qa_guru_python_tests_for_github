@@ -10,7 +10,7 @@ from selene.support.shared import browser
 @allure.label('owner', 'o_prokopenko')
 @allure.severity(Severity.CRITICAL)
 @allure.feature('Проверка наличия таски в репе')
-@allure.story('1. Чистый Selene (без шагов)')
+@allure.story('Шаги с декоратором @allure.step')
 @allure.link('https://github.com', name='Testing')
 def test_to_check_name_issue_with_decorator_allure(open_browser):
     open_main_page()
